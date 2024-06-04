@@ -1,0 +1,57 @@
+.userCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: #778899;
+  border: 2px solid rgba(83, 83, 83, a0.747);
+  position: relative;
+}
+
+.userProfile {
+  border: none;
+  background-color: #c0c0c0;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.photo {
+  background-color: #c0c0c0;
+  padding: 40px;
+  margin: 40px;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.userName {
+  font-size: 40px;
+  font-family: Ubuntu;
+  color: black;
+  font-weight: bold;
+}
+
+.userData {
+  font-size: 30px;
+  font-family: Ubuntu;
+  color: black;
+  opacity: 0.5;
+}
+
+.userStats {
+  color: black;
+  font-size: 30px;
+  font-family: Ubuntu;
+}
+
+.userStatsList {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid rgba(255, 255, 255, 0.747);
+  border-color: #c0c0c0;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+  margin: 50px;
+}

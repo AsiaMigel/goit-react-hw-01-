@@ -1,0 +1,33 @@
+.listItems {
+  border-color: #c0c0c0;
+  color: black;
+  border: 3px solid rgba(75, 72, 72, 0.801);
+  border-radius: 10px;
+  padding: 16px 24px;
+  width: 200px;
+  margin: 16px 0;
+}
+
+.img {
+  width: 100px;
+}
+
+.friendName {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.df {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.friendOnline {
+  composes: df;
+  color: green;
+}
+
+.friendOffline {
+  composes: df;
+  color: red;
+}
